@@ -11,17 +11,7 @@ Make sure you have the following installed:
 
 ## 📦 Installation Steps
 
-1. **Unzip the project:**
-
-   Unpack the ZIP archive to any directory on your machine.
-
-2. **Navigate to the project root:**
-
-   ```bash
-   cd path/to/unzipped/soft_project 2
-   ```
-
-3. **Build and start the application:**
+1. **Build and start the application:**
 
    From the root directory, run:
 
@@ -29,7 +19,7 @@ Make sure you have the following installed:
    docker-compose up --build
    ```
 
-4. **Access the application:**
+2. **Access the application:**
 
    Open your browser and go to:
 
