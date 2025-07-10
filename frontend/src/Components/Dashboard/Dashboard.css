@@ -1,0 +1,75 @@
+.dashboard-page {
+    min-height: 100vh;
+    color: white;
+    padding: 1.5rem;
+  }
+  
+  .section {
+    background-color: #2d2d2d;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
+  }
+  
+
+  
+  .section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .section-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .table {
+    width: 100%;
+    text-align: left;
+    color: #d1d5db;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem 0;
+    border-top: 1px solid #374151;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .badge.in-progress {
+    background-color: #7c3aed; 
+  }
+  
+  .badge.complete {
+    background-color: #10b981;
+  }
+  
+  .badge.pending {
+    background-color: #f59e0b;
+  }
+  
+  .badge.approved {
+    background-color: #3b82f6;
+  }
+  
+  .badge.rejected {
+    background-color: #ef4444;
+  }
+  

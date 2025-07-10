@@ -1,0 +1,59 @@
+
+  
+  .projects-table h2 {
+    font-size: 1.125rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .projects-table table {
+    width: 100%;
+    text-align: left;
+    color: #9ca3af;
+  }
+  
+  .projects-table th {
+    padding-bottom: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .projects-table td {
+    padding: 0.75rem 0;
+    border-top: 1px solid #374151;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #fff;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  
+  .status-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.2);
+  }
+  
+  .status-complete {
+    background-color: #065f46;
+  }
+  
+  .status-inprogress {
+    background-color: #4c1d95;
+  }
+  
+  .status-pending {
+    background-color: #1e3a8a;
+  }
+  
+  .status-approved {
+    background-color: #78350f;
+  }
+  
+  .status-rejected {
+    background-color: #111827;
+  }
+  
