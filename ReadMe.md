@@ -1,6 +1,6 @@
 # 🚀 Installation Guide
 
-This project is packaged as a ZIP archive and uses **Docker Compose** for setup and deployment.
+This project uses **Docker Compose** for setup.
 
 ## 🧱 Prerequisites
 
